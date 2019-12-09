@@ -1,0 +1,136 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Open Sans, "Helvetica Neue", Helvetica, sans-serif;
+}
+a{
+	text-decoration: none;
+
+}
+header{
+	box-shadow: 1px 1px 5px #ccc;
+
+}
+.container{
+	width: 1200px;
+	margin: auto;
+}
+
+nav{
+	float: right;
+	margin-top: 35px;
+}
+
+nav ul li{
+list-style: none;
+text-transform: uppercase;
+float: left;
+	
+}
+
+nav ul li a{
+	text-decoration: none;
+		padding: 5px 8px;
+
+}
+
+.logo{
+	float: left;
+	padding-top: 1px;
+}
+
+.clear{clear: both;}
+
+main{
+	margin-top: 7px;
+}
+
+h2{
+	text-transform: uppercase;
+	color: blue;
+	margin: 20px 0px;
+	padding-top: 20px;
+}
+.featured{
+	text-align: center;
+	margin-bottom: 20px;
+	}
+
+.featured img{
+	margin: 10px;
+	
+}
+
+.destinations{
+	background-color: black;
+	width: 100%;
+	color: #fff;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.destinations img{
+	margin: 10px;
+}
+
+.weather{
+	background-color: lightgrey;
+	
+		}
+
+.weather .content, .peace .content {
+	width: 56%;
+	
+	padding-left: 20px;
+	
+}
+.weather .img{
+	float: right;
+}
+.weather .content{
+	float: left;
+}
+
+.peace img, .weather .img{
+	height: 300px;
+	width: 456px;
+}
+
+.peace{
+	background-color: lightgrey;
+	
+	margin-top: 20px;
+	}
+
+		.peace .img{float: left;}
+ .peace .content {
+ 	float: right;
+ 	text-decoration: none;
+ }
+
+
+ .contact{
+ 	padding: 40px 0 80px 0;
+ 	margin-top: 120px;
+ 	color: #fff;
+ 	background: url(../images/blur-contact.jpg);
+ 	background-size: cover;
+	background-position: left;
+ }
+ .contact a{
+ 	color: #fff;
+ }
+ .contact .map{float: left;}
+ .contact .detail{float: right;}
+ .contact p{
+ 	margin-top: 15px;
+ }
+
+ footer .left{float: left;}
+ footer .right{float: right;}
+ footer	{
+ 	padding: 20px 0;
+ 	background-color: #1b4485;
+ 	color: white;
+ }
