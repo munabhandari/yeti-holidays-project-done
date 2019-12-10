@@ -10,8 +10,12 @@ a{
 }
 header{
 	box-shadow: 1px 1px 5px #ccc;
-
+	position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  background-color: #fff;
 }
+
 .container{
 	width: 1200px;
 	margin: auto;
@@ -20,6 +24,13 @@ header{
 nav{
 	float: right;
 	margin-top: 35px;
+	font-weight: 700;
+}
+nav .active a{
+color: #045690 ;
+}
+nav a:hover{
+	color: #353535;
 }
 
 nav ul li{
@@ -32,7 +43,7 @@ float: left;
 nav ul li a{
 	text-decoration: none;
 		padding: 5px 8px;
-
+		color: #848c25;
 }
 
 .logo{
@@ -48,30 +59,37 @@ main{
 
 h2{
 	text-transform: uppercase;
-	color: blue;
 	margin: 20px 0px;
 	padding-top: 20px;
 }
 .featured{
 	text-align: center;
 	margin-bottom: 20px;
+	color:#333;
 	}
 
 .featured img{
-	margin: 10px;
-	
+	margin: 10px;	
+}
+
+.featured h2{
+	color: #307bd1;
 }
 
 .destinations{
-	background-color: black;
+	background: url(../images/bg.jpg);
 	width: 100%;
-	color: #fff;
+	color: #bdbdbd;
 	text-align: center;
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
 .destinations img{
 	margin: 10px;
+}
+
+.destinations h2{
+	color: #e4e4e4;
 }
 
 .weather{
